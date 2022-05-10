@@ -16,6 +16,7 @@ public class CardDeliveryOrderTest {
         open("http://localhost:9999/");
     }
 
+    
     @Test
     public void shouldValidValue() {
         Configuration.timeout = 15000;
